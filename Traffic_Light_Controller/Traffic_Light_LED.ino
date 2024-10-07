@@ -11,12 +11,12 @@ void setup()
 void loop()
 {
   digitalWrite(RED_led, HIGH);
-  delay(45000); 
+  delay(15000); 
   digitalWrite(RED_led, LOW);
   digitalWrite(YEL_led, HIGH);
   delay(5000);
   digitalWrite(YEL_led, LOW);
   digitalWrite(GRE_led, HIGH);
-  delay(30000);
+  delay(10000);
   digitalWrite(GRE_led, LOW);
 }
